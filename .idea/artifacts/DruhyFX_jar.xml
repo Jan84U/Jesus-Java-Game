@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DruhyFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DruhyFX_jar</output-path>
+    <root id="archive" name="DruhyFX.jar">
+      <element id="module-output" name="DruhyFX" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DruhyFX.jnlp">
+  <information>
+    <title>DruhyFX</title>
+    <vendor>Unknown</vendor>
+    <description>DruhyFX</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DruhyFX.jar" size="92291673" download="eager" />
+    <jar href="DruhyFX\app\DruhyFX.jar" size="22766394" download="eager" />
+    <jar href="DruhyFX\runtime\lib\javafx-swt.jar" size="36267" download="eager" />
+    <jar href="DruhyFX\runtime\lib\jrt-fs.jar" size="106624" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1360" height="740" main-class="sample.Main"  name="DruhyFX" />
+  <update check="background"/>
+</jnlp>

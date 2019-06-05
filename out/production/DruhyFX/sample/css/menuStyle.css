@@ -1,0 +1,223 @@
+.root{
+    -fx-background-image: url("mainmenu.png");
+    -fx-background-size: cover;
+    -fx-padding: 50px 20px 100px 0 ;
+}
+
+.outer{
+    -fx-background-color:transparent;
+    -fx-alignment: bottom-center;
+}
+
+.counter{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 70px;
+    -fx-padding: 0 0 0 30px;
+    -fx-text-fill: derive(white, 20%);
+    -fx-effect: dropshadow(gaussian,#6996a8,5,0.6,1,6);
+}
+
+.progress{
+    -fx-progress-color: derive(white, 20%);
+    -fx-progress-size: 50px;
+    -fx-effect: dropshadow(gaussian,#6996a8,5,0.6,1,6);
+}
+
+.progress:indeterminate{
+    -fx-progress-color: gold;
+}
+
+.menu{
+    -fx-alignment: top-center;
+    -fx-padding: 50px 0 0 0;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-width: 5px;
+    -fx-border-color: #ffe400;
+    /*-fx-border-radius: 20px;*/
+    -fx-effect: dropshadow(gaussian,#6996a8,8,0.6,1,3);
+}
+
+.mainLabel1{
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 42px;
+    -fx-text-fill: derive(white, 20%);
+    /*-fx-effect: dropshadow(gaussian,#6996a8,5,0.6,1,6);*/
+}
+
+
+.line{
+    -fx-pref-width: 280px;
+    -fx-border-width: 4px;
+    -fx-border-color: transparent transparent derive(white,40%) transparent;
+}
+
+.inner{
+    -fx-padding: 60px 0 0 0;
+}
+
+.buttons{
+    -fx-background-color: transparent;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: derive(white,25%);
+    -fx-pref-width: 270px;
+    -fx-border-width: 3px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: transparent transparent derive(white,40%) transparent;
+}
+
+.buttons:hover{
+    -fx-font-size: 29px;
+    -fx-text-fill: #ffe400;
+    -fx-border-color: transparent transparent #ffe400 transparent;
+}
+
+.settings{
+    -fx-alignment: top-center;
+    -fx-padding: 50px 0 20px 0;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-width: 5px;
+    -fx-border-color: #ffe400;
+    /*-fx-border-radius: 20px;*/
+    -fx-effect: dropshadow(gaussian,#6996a8,8,0.6,1,3);
+}
+
+.mainLabel1{
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 42px;
+    -fx-text-fill: derive(gold, 20%);
+    /*-fx-effect: dropshadow(gaussian,#6996a8,5,0.6,1,6);*/
+}
+
+.label1{
+    -fx-background-color: transparent;
+    -fx-padding: 20px 0 20px 0;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: derive(white,25%);
+    -fx-alignment: center;
+    -fx-pref-width: 270px;
+    -fx-border-width: 3px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: transparent transparent derive(white,40%) transparent;
+}
+
+.slider{
+    -fx-padding: 10px 0 10px 0;
+    -fx-font-size: 15px;
+    -fx-slider-color: gold;
+    -fx-block-increment: 0.1;
+    -fx-major-tick-unit: 0.5;
+    -fx-minor-tick-unit: 0.2;
+    -fx-show-tick-labels: true;
+}
+
+.labelSlider{
+    -fx-background-color: transparent;
+    -fx-padding: 10px 0 10px 0;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: derive(white,25%);
+    -fx-alignment: center;
+    -fx-pref-width: 270px;
+    -fx-border-width: 3px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: transparent transparent derive(white,40%) transparent;
+}
+
+.button1{
+    -fx-background-color: transparent;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: derive(white,25%);
+    -fx-pref-width: 150px;
+    -fx-border-width: 3px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: derive(gold,50%);
+    -fx-effect: dropshadow(gaussian,#6996a8,8,0.6,1,3);
+}
+
+.hb{
+    -fx-padding: 10px 0 10px 0;
+}
+
+.buttonLan1{
+     -fx-background-image: url("sk.png");
+     -fx-background-size: cover;
+
+}
+
+.buttonLan2{
+     -fx-background-image: url("en.jpg");
+    /* -fx-background-size: cover;*/
+
+}
+
+.buttonLan1:focused{
+    -fx-effect:dropshadow(gaussian,gold,20,0.4,0,0);
+}
+
+.buttonLan2:focused{
+   -fx-effect:dropshadow(gaussian,gold,20,0.4,0,0);
+}
+
+.button1:hover{
+    -fx-font-size: 29px;
+    -fx-text-fill: #ffe400;
+    -fx-border-color: gold;
+}
+
+.button2{
+    -fx-background-color: transparent;
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: derive(white,25%);
+    -fx-pref-width: 200px;
+    -fx-border-width: 3px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: derive(gold,50%);
+}
+
+.button2:hover{
+    -fx-font-size: 29px;
+    -fx-text-fill: #ffe400;
+    -fx-border-color: gold;
+}
+
+.gameOver{
+    -fx-padding: -50 0 250 0;
+    -fx-alignment: center;
+    -fx-font-family: Minecraft;
+    -fx-text-fill: gold;
+    -fx-font-weight: bold;
+    -fx-font-size: 200px;
+    -fx-effect: dropshadow(gaussian,#6996a8,8,0.6,1,3);
+}
+
+.buttonOver{
+    -fx-alignment: center;
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-font-family: Minecraft;
+    -fx-font-weight: bold;
+    -fx-text-fill: gold;
+    -fx-font-size: 30px;
+    -fx-border-width: 5px;
+    /*-fx-border-radius: 10px;*/
+    -fx-border-color: gold;
+}
+
+.buttonOver:hover{
+    -fx-background-color: rgba(255,255,255,0.6);
+}
